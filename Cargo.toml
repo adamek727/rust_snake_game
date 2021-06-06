@@ -1,0 +1,13 @@
+[package]
+name = "rust_snake_game"
+version = "0.1.0"
+authors = ["Adam Ligocki <xligoc01@stud.feec.vutbr.cz>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "*"
+timer = "0.2.0"
+chrono = "*"
+rand = "0.8.3"
